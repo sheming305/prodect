@@ -1,0 +1,195 @@
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+ul:after{
+	display: block;
+	content: "";
+	clear: both;
+
+}
+#my_intelligent{
+	width:100%;
+	min-width: 1320px;
+	background: #6633CC;
+}
+#my_intelligent ul{
+	padding:0;
+	list-style: none;
+	width:1200px;
+	margin:0 auto;
+	height:50px;
+	line-height: 50px;
+	background: #6633CC;
+}
+#my_intelligent ul li{
+	float: left;
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	background: #6633CC;
+	text-align: center;
+	color:#fff;
+}
+#my_intelligent ul li a{
+	color:#fff;
+	display: inline-block;
+	width:100%;
+	height:100%;
+}
+#my_intelligent ul li span{
+	font-size: 18px;
+	font-weight: 600;
+}
+/*主体部分*/
+#my_intell_section{
+	width:1200px;
+	margin:10px auto;
+	padding-left: 40px;
+}
+
+#my_intell_section h3{
+	color: #267AB6;
+}
+
+#my_intell_section p{
+	font-size: 16px;
+	padding:10px 0;
+}
+#my_intell_section .my_iamges{
+	text-align: center;
+}
+#my_intell_section .gui_mo{
+	border-bottom: 1px dashed #ccc;
+}
+
+
+
+
+
+
+
+
+
+/*底部文本*/
+#footer{
+	width: 100%;
+	min-width: 1320px;
+	height: 250px;
+	background: #414141;
+	text-align: center;
+}
+.infooter{
+	width:1320px;
+	margin:0 auto;
+	background: #414141;
+}
+#footer:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+#footer ul{
+	float: left;
+	width:220px;
+	margin-top:25px;
+}
+#footer ul .my_footer{
+	height:55px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#footer ul li{
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+}
+#footer .my_footer{
+	color:#FFF;
+}
+#footer ul li a{
+	color:#969696;
+}
+
+
+/*备案号*/
+
+#foot{
+	width:100%;
+	min-width: 1320px;
+	background: #262626;
+	text-align: center;
+}
+#foot ul{
+	padding-top: 10px;
+}
+#foot ul li{
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	padding:0 8px;
+	height:30px;
+	line-height: 30px;
+	color:#666666;
+}
+#foot ul li a{
+	color:#666;
+}
+.inside{
+	width:1200px;margin:0 auto;
+}
+.navout{
+	text-align: center;
+}
+
+/*头部*/
+#ruien_banner{
+	width: 100%;
+	min-width: 1320px;
+	background: #fff;
+	padding:6px 25px;
+	margin:0 auto;
+}
+#ruien_banner:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+#ruien_banner ul{
+	height:35px;
+	line-height:35px;
+}
+#ruien_banner ul li{
+	float: left;
+	padding:5px 10px;
+	color: #666;
+}
+#ruien_banner ul li a{
+	text-decoration: none;
+	color: #666;
+}
+#ruien_banner ul li a:hover{
+	color:#333;
+}
+#ruien_banner .rt{
+	float: right;
+}
+
+#ruien_banner .rt a{
+	display: inline-block;
+	width:60px;
+	background: #CFC8C1;
+	text-align: center;
+	color:#fff;
+}
+
